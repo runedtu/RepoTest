@@ -1,0 +1,10 @@
+1)
+- I would say the "coordinates" are Interval - not norminal.
+- .. And "Relative humidity" and "wind" are ratio (even though the dataset doesn't include 0-valued observations).
+- Maybe we can summarize this in a table :)
+
+2)
+- Maybe mention, that the BUI and FWI have been discarded since they are dependent of the other values in the FWI-system.
+
+3)
+I think we should exclude 'area' from the attributes, since this is an output variable.
